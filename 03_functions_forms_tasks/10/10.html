@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMPARE_TEXTS</title>
+</head>
+<body>
+<style>
+
+    .form{
+        margin: 20px auto;
+        width: 25%;
+    }
+
+    .form label {
+        overflow: hidden;
+        text-align: left;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .form label input, .form label textarea {
+        float: left;
+    }
+
+    textarea {
+        width: 300px;
+        height: 50px;
+    }
+
+</style>
+
+<form class="form" action="10.php" method="POST">
+    <label for="text">
+        Text
+        <textarea name="text" id="text" required></textarea>
+    </label>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
