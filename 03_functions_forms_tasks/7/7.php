@@ -1,11 +1,6 @@
 
 <?php
 
-$comments = file_get_contents("comments.txt");
-$comments = explode("\n", trim($comments));
-
-require_once "7.html";
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $formData = [];
 
