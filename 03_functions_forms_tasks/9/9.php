@@ -10,7 +10,7 @@ reversString($text);
 function reversString($a){
     $a = preg_split('//', $a, -1);
     krsort($a);
-    print_r(implode($a));
+    print_r(implode("",$a));
 }
 
 
